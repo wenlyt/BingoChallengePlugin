@@ -1,0 +1,17 @@
+name: BingoChallenge
+main: me.wenlyt.BingoChallenge.Main
+version: 1.0
+api-version: 1.21
+description: Собери предметы и обыграй других людей.
+
+commands:
+  startgame:
+    description: Запускает игру Бинго.
+    usage: /startgame
+    permission: bingochallenge.start
+    permission-message: Вы не имеете прав для запуска этой команды.
+
+permissions:
+  resourcehunt.start:
+    description: Разрешение для запуска игры "Охота на ресурсы".
+    default: op
